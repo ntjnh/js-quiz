@@ -1,0 +1,114 @@
+{
+    "questions": [
+        {
+            "id":"ent-1",
+            "question":"Which of the following films was released ten years ago?",
+            "choices":[
+                "I Am Legend",
+                "Sin City",
+                "Avatar",
+                "Limitless"
+            ],
+            "moreInfo":"Avatar was released in 2009, I Am Legend in 2007, Sin City in 2005 and Limitless in 2011."
+        },
+        {
+            "id":"ent-2",
+            "question":"By what name is Adam Wiles better known?",
+            "choices":[
+                "Ne-Yo",
+                "Calvin Harris",
+                "Wiley",
+                "Post Malone"
+            ],
+            "moreInfo":"It's Calvin Harris! If you picked Wiley, his real name is actually Richard Kylea Cowie Jr..."
+        },
+        {
+            "id":"sports-1",
+            "question":"Which of the following tennis players has only won the Australian Open once?",
+            "choices":[
+                "Andy Murray",
+                "Rafael Nadal",
+                "Roger Federer",
+                "Novak Djokovic"
+            ],
+            "moreInfo":"It was Rafa Nadal! Fun fact: the other three also have one Grand Slam competition that they've only won once."
+        },
+        {
+            "id":"sports-2",
+            "question":"Which two countries hosted the 2002 FIFA World Cup?",
+            "choices":[
+                "China and Japan",
+                "Japan and Vietnam",
+                "North Korea and South Korea",
+                "South Korea and Japan"
+            ],
+            "moreInfo":"It was South Korea and Japan! That was the only time the World Cup has ever been hosted in Asia!"
+        },
+        {
+            "id":"sci-1",
+            "question":"'B' is the chemical symbol for which element in the periodic table?",
+            "choices":[
+                "Beryllium",
+                "Boron",
+                "Bromine",
+                "Bohrium"
+            ],
+            "moreInfo":"Boron. That is all."
+        },
+        {
+            "id":"ent-3",
+            "question":"'September' was a hit by which American band?",
+            "choices":[
+                "Kool & the Gang",
+                "Chic",
+                "Earth, Wind & Fire",
+                "The Gap Band"
+            ],
+            "moreInfo":"It was Earth, Wind and Fire! They had another hit titled 'Let's Groove!'"
+        },
+        {
+            "id":"sci-2",
+            "question":"The fifth planet from the sun is...",
+            "choices":[
+                "Earth",
+                "Jupiter",
+                "Mars",
+                "Saturn"
+            ],
+            "moreInfo":"Mercury Venus Earth Mars JUPITER Saturn Uranus Neptune Pluto(?)"
+        },
+        {
+            "id":"geo-1",
+            "question":"What county is the town of Watford in?",
+            "choices":[
+                "Berkshire",
+                "Lancashire",
+                "Bedfordshire",
+                "Hertfordshire"
+            ],
+            "moreInfo":"I think a lot of people think it's basically part of London but it's actually in Hertfordshire."
+        },
+        {
+            "id":"geo-2",
+            "question":"Which of these was built last?",
+            "choices":[
+                "Eiffel Tower",
+                "Parthenon",
+                "Empire State Building",
+                "Taj Mahal"
+            ],
+            "moreInfo":"The build dates are: Empire State Building: 1931, Eiffel Tower: 1889, Parthenon: 447 and Taj Mahal: 1653."
+        },
+        {
+            "id":"geo-3",
+            "question":"The Netherlands is bordered by Germany and which other country?",
+            "choices":[
+                "Belgium",
+                "France",
+                "Luxembourg",
+                "Switzerland"
+            ],
+            "moreInfo":"It's Belgium! Did you know that Dutch is an official language there too?"
+        }
+    ]
+}
