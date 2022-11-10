@@ -99,24 +99,24 @@ h3 {
 
 /* Radio button on hover */
 .choice-text:hover .choice-radio ~ .choice-selected {
-background-color: $white;
+  background-color: $white;
 }
 
 /* Checked radio button */
 .choice-text .choice-radio:checked ~ .choice-selected {
-background-color: $black;
+  background-color: $black;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .choice-selected:after {
-content: "";
-display: none;
-position: absolute;
+  content: "";
+  display: none;
+  position: absolute;
 }
 
 /* Show the indicator (dot/circle) when checked */
 .choice-text .choice-radio:checked ~ .choice-selected:after {
-display: block;
+  display: block;
 }
 
 /* Style the indicator (dot/circle) */
@@ -236,6 +236,6 @@ display: block;
 /* ===== Media Queries ===== */
 @media (min-width: 993px) {
   .results-content {
-      width: 50%;
+    width: 50%;
   }
 }
