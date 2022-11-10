@@ -1,3 +1,11 @@
+$blue: #3e90ff;
+$blue-light: #8abcff;
+$green: #32cd32;
+$grey: #aaa;
+$grey-light: #ccc;
+$red: #cf2727;
+$white: #fff;
+
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -24,9 +32,9 @@ h3 {
 }
 
 .more-info {
-  background-color: #8abcff;
-  border: 2px solid #3e90ff;
-  color: #fff;
+  background-color: $blue-light;
+  border: 2px solid $blue;
+  color: $white;
   display: none;
   font-size: .9em;
   font-style: italic;
@@ -41,7 +49,7 @@ h3 {
 }
 
 .choice-text {
-  background-color: #ccc;
+  background-color: $grey-light;
   cursor: pointer;
   display: block;
   font-size: 18px;
@@ -55,20 +63,20 @@ h3 {
 
 .choice-text:hover,
 .choice-text--selected {
-  background-color: #3e90ff;
-  color: #fff;
+  background-color: $blue;
+  color: $white;
 }
 
 .choice-text--selected-correct,
 .choice-text--selected-correct:hover {
-  background-color: #32cd32;
-  color: #fff;
+  background-color: $green;
+  color: $white;
 }
 
 .choice-text--selected-incorrect,
 .choice-text--selected-incorrect:hover {
-  background-color: #cf2727;
-  color: #fff;
+  background-color: $red;
+  color: $white;
 }
 
 /* Hide default radio button */
@@ -80,7 +88,7 @@ h3 {
 
 /* Custom radio button */
 .choice-selected {
-  background-color: #fff;
+  background-color: $white;
   border-radius: 50%;
   height: 22px;
   left: 10px;
@@ -91,12 +99,12 @@ h3 {
 
 /* Radio button on hover */
 .choice-text:hover .choice-radio ~ .choice-selected {
-background-color: #fff;
+background-color: $white;
 }
 
 /* Checked radio button */
 .choice-text .choice-radio:checked ~ .choice-selected {
-background-color: #000;
+background-color: $black;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -113,7 +121,7 @@ display: block;
 
 /* Style the indicator (dot/circle) */
 .choice-text .choice-selected:after {
-  background-color: #fff;
+  background-color: $white;
   border-radius: 50%;
   left: 7px;
   height: 8px;
@@ -129,8 +137,8 @@ display: block;
 }
 
 .submit {
-  background-color: #32cd32;
-  color: #fff;
+  background-color: $green;
+  color: $white;
 }
 
 .restart-b {
@@ -145,7 +153,7 @@ display: block;
 
 /* ===== Results Modal ===== */
 .results-wrapper {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba($black, 0.4);
   display: none;
   height: 100%;
   left: 0;
@@ -156,12 +164,12 @@ display: block;
 }
 
 .results-content {
-  background-color: #3e90ff;
-  color: #fff;
+  background-color: $blue;
+  color: $white;
   height: 300px;
   margin: 15% auto;
   padding: 20px;
-  border: 1px solid #fff;
+  border: 1px solid $white;
   width: 70%;
 }
 
@@ -177,7 +185,7 @@ display: block;
 }
 
 .results-heading {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid $white;
   font-weight: normal;
   letter-spacing: .1em;
   padding-bottom: 5px;
@@ -201,13 +209,13 @@ display: block;
 }
 
 .answers {
-  background-color: #fff;
-  color: #3e90ff;
+  background-color: $white;
+  color: $blue;
 }
 
 .restart {
-  background-color: #000;
-  color: #fff;
+  background-color: $black;
+  color: $white;
 }
 
 .blur {
@@ -221,8 +229,8 @@ display: block;
 .disabled,
 .disabled:hover,
 .submit:disabled {
-  background-color: #ccc;
-  color: #aaa;
+  background-color: $grey-light;
+  color: $grey;
 }
 
 /* ===== Media Queries ===== */
