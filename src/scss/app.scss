@@ -21,7 +21,7 @@ body {
 //
 
 .header {
-  padding-top: 1.5rem;
+  padding: 1.5rem 0 2rem;
   position: relative;
   text-align: center;
   width: 100%;
@@ -44,26 +44,45 @@ body {
       width: 24px;
 
       &:hover {
-          fill: $blue;
+        fill: $blue;
       }
     }
   }
 }
 
+//
+// Footer
+//
+
+.footer {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1rem 0;
+  text-align: center;
+
+  &__link {
+    color: $black;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// 
+// Main
+//
+
 .container {
   margin: 0 auto;
   max-width: 960px;
-  padding: 25px 0;
+  padding: 0;
   width: 85%;
-
-  h1,
-  h3 {
-    margin: 0;
-  }
 
   .btn {
     border: none;
-    border-radius: 5px;
+    border-radius: .25rem;
     cursor: pointer;
     text-transform: uppercase;
   }
@@ -83,18 +102,18 @@ body {
     color: $white;
 
     &-b {
-      margin-left: 10px;
+      margin-left: .75rem;
     }
   }
 
   .restart-b,
   .submit {
-    font-size: 1em;
-    padding: 10px 15px;
+    font-size: 1rem;
+    padding: .75rem 1rem;
   }
   
   .blur {
-    filter: blur(4px);
+    filter: blur(.25rem);
   }
   
   .no-scroll {
@@ -110,11 +129,12 @@ body {
 }
 
 .question {
-  padding: 10px 0;
+  margin-bottom: 2rem;
+  padding: 0;
   
   &-text {
     font-weight: $reg;
-    margin-bottom: 10px;
+    margin: 0 0 1.25rem;
   }
 
   .more-info {
@@ -122,28 +142,25 @@ body {
     border: 2px solid $blue;
     color: $white;
     display: none;
-    font-size: .9em;
+    font-size: .9rem;
     font-style: italic;
     letter-spacing: .05em;
-    margin-bottom: 5px;
-    padding: 5px;
+    margin-bottom: .25rem;
+    padding: .25rem;
   }
 
   .choices-wrapper {
     .choice {
-      padding: 5px 0;
+      padding: .25rem 0;
       position: relative;
 
       &-text {
         background-color: $grey-light;
         cursor: pointer;
         display: block;
-        font-size: 18px;
-        padding: 10px 0 10px 40px;
+        font-size: 1.125rem;
+        padding: .75rem 0 .75rem 2.5rem;
         position: relative;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
         user-select: none;
 
         // Radio button on hover
@@ -235,7 +252,7 @@ body {
     color: $white;
     height: 300px;
     margin: 15% auto;
-    padding: 20px;
+    padding: 1.25rem;
     border: 1px solid $white;
     width: 70%;
 
@@ -245,8 +262,8 @@ body {
 
     .close {
       float: right;
-      font-size: 32px;
-      line-height: 18px;
+      font-size: 2rem;
+      line-height: .5625rem;
       text-align: right;
 
       &:hover {
@@ -256,24 +273,25 @@ body {
 
     .results-heading {
       border-bottom: 1px solid $white;
-      font-weight: normal;
+      font-weight: $reg;
       letter-spacing: .1em;
-      padding-bottom: 5px;
+      margin: 0;
+      padding-bottom: .25rem;
       text-transform: uppercase;
     }
 
     .actions {
-      margin-top: 32px;
+      margin-top: 2rem;
       padding-left: 0;
 
       li {
         display: inline;
         list-style: none;
-        padding-right: 10px;
+        padding-right: .75rem;
 
         button {
-          font-size: .9em;
-          padding: 10px;
+          font-size: .9rem;
+          padding: .75rem;
         }
       }
     }
