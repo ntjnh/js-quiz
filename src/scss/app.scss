@@ -16,6 +16,40 @@ body {
   margin: 0;
 }
 
+//
+// Header
+//
+
+.header {
+  padding-top: 1.5rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  
+  &__title {
+    display: inline-block;
+    font-weight: $light;
+    margin: 0;
+  }
+
+  &__gh {
+    font-size: 1.5rem;
+    line-height: 1;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+
+    svg {
+      height: auto;
+      width: 24px;
+
+      &:hover {
+          fill: $blue;
+      }
+    }
+  }
+}
+
 .container {
   margin: 0 auto;
   max-width: 960px;
