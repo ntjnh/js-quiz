@@ -20,6 +20,27 @@ body {
   margin: 0;
 }
 
+.btn {
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.answers {
+  background-color: $white;
+  color: $blue;
+}
+
+.restart {
+  background-color: $black;
+  color: $white;
+
+  &-b {
+    margin-left: .75rem;
+  }
+}
+
 //
 // Header
 //
@@ -83,31 +104,10 @@ body {
   max-width: 640px;
   padding: 0;
   width: 100%;
-
-  .btn {
-    border: none;
-    border-radius: .25rem;
-    cursor: pointer;
-    text-transform: uppercase;
-  }
   
   .submit {
     background-color: $green;
     color: $white;
-  }
-
-  .answers {
-    background-color: $white;
-    color: $blue;
-  }
-  
-  .restart {
-    background-color: $black;
-    color: $white;
-
-    &-b {
-      margin-left: .75rem;
-    }
   }
 
   .restart-b,
