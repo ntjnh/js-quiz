@@ -3,6 +3,7 @@ $blue: #3e90ff;
 $blue-light: #8abcff;
 $green: #32cd32;
 $grey: #aaa;
+$grey-dark: #555;
 $grey-light: #ccc;
 $red: #cf2727;
 $white: #fff;
@@ -144,16 +145,13 @@ body {
   }
 
   .more-info {
-    background-color: $blue-light;
-    border: 2px solid $blue;
-    border-radius: 6px;
-    color: $white;
+    color: $grey-dark;
     display: none;
     font-size: .9rem;
     font-style: italic;
     letter-spacing: .05em;
     margin: 0 0 1rem;
-    padding: .5rem;
+    padding: 0 0 .5rem;
   }
 
   .choices-wrapper {
